@@ -34,7 +34,6 @@ fun CategoryDetailScreen(category: Category){
         Text(text = category.strCategoryDescription,
             textAlign = TextAlign.Justify,
             modifier = Modifier.verticalScroll(rememberScrollState()) //Allows us to scroll through the text is the text is too long to fit in a single dimensional screen
-
         )
 
     }
