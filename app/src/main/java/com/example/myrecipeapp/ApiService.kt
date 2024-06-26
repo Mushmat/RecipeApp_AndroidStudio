@@ -14,6 +14,4 @@ interface ApiService {
     //This will have one function SUSPEND
     @GET("categories.php") //The APIService should go to categories.php to fetch for the data
     suspend fun getCategories():CategoriesResponse //This is a part of the coroutine API that provide a way to manage concurrency of tasks.
-
-
 }
